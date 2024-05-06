@@ -279,10 +279,12 @@ body {
 
 .text {
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     /* padding: 8px 10px; */
 }
-
+.bottom-nav .text p{
+text-wrap: nowrap;
+}
 .hamburger {
     display: flex;
     gap: 10px;
