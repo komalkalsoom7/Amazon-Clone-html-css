@@ -269,42 +269,7 @@ body {
     flex: 1;
 }
 
-@media screen and (max-width:900px) {
-    .nav-right {
-        display: none;
-    }
 
-    .nav-search {
-        display: none;
-    }
-
-    .nav-location {
-        display: none;
-    }
-
-    .nav-hamburger {
-        display: block;
-        text-align: right;
-        padding-right: 18px;
-    }
-
-    .nav-logo {
-        flex: 1;
-        border: none;
-    }
-
-    .nav-logo h3 {
-        text-align: left;
-    }
-
-    .border:hover {
-        border: none;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-}
 
 /* ------------------------------------------------------- */
 /* bottom-nav */
