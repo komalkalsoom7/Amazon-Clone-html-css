@@ -394,3 +394,6 @@ body {
 .banner-cart h1{
     font-size: 20px;
 }
+.banner-cart .hide{
+    display: none;
+}
