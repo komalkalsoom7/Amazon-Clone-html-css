@@ -323,18 +323,21 @@ body {
     background-size: cover;
     background-position: 0px 0px;
 }
-.banner-section{
-   position: relative;
+
+.banner-section {
+    position: relative;
 }
-.banner-inner{
+
+.banner-inner {
     position: absolute;
     top: 33vh;
     width: 100%;
     height: 600px;
-    padding: 20px 0px; 
+    padding: 20px 0px;
     /* background-color: #febd69; */
 }
-.banner-inner-one{
+
+.banner-inner-one {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -343,23 +346,87 @@ body {
     /* height: 300px; */
     /* max-width: 1219px;
     min-width: 919px; */
-    padding: 0px 20px; 
+    padding: 0px 20px;
 
     margin: 0 auto;
     /* background-color: #f8f8f9; */
 }
-.banner-cart{
+
+.banner-cart {
     /* width: 33%; */
     width: 350px;
     height: 420px;
     padding: 20px;
-    background-color: antiquewhite;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.banner-cart h1{
+.banner-cart .link a{
+    color: rgb(43, 156, 156);
+    text-decoration: none;
+    font-size: 14px;
+    /* font-weight: 700; */
+}
+.banner-cart h1 {
     font-size: 20px;
 }
 
-.banner-cart .hidden-cart{
+.banner-cart .hidden-cart {
     display: none;
 }
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+.items .item-content {
+    margin: 0 auto;
+    height: 150px;
+    width: 46%;
+    /* background-color: antiquewhite; */
+}
+.item-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item-content .one{
+    width: 100%;
+}
+.item-content img {
+    width: 100%;
+    height: 120px;
+    /* height: 100px; */
+}
+.item-img img{
+    width: 100%;
+    height: 320px;
+    padding: 15px 0;
+}
+.item-content p {
+    font-size: 13px;
+    
+}
+.item-content-one img{
+    width: 100%;
+    height: 180px;
+}
+.item-content-two img{
+    width: 100%;
+}
+.item-content-one{
+    width: 100%;
+    flex: 1 0 100%;
+    /* height: 70%; */
+}
+.item-content-two{
+    width: 28%;
+    flex: 1 0 28%;
+    font-size: 12px;
+}
+
