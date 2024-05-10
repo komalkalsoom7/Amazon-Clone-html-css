@@ -71,5 +71,8 @@
     font-size: 25px;
     
 }
-
+.last-div{
+    display: block!important;
 }
+}
+
