@@ -314,9 +314,12 @@ body {
 /* ------------------------------------------------------- */
 /*                           banner-section                */
 /* ------------------------------------------------------- */
-.last-div{
-    display: none!important;
+/* ////////////////////// */
+.banner-inner-one #last-div{
+    display: none;
 }
+/* ////////////////////// */
+
 .background-image {
     width: 100%;
     height: 80vh;
@@ -401,9 +404,9 @@ body {
     width: 100%;
 }
 .item-content img {
+    object-fit: cover;
     width: 100%;
     height: 120px;
-    /* height: 100px; */
 }
 .item-img img{
     width: 100%;
