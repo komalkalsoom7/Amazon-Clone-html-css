@@ -1,6 +1,23 @@
 
-
+@media screen and (max-width:1450px) {
+    .banner-inner-one #last-div{
+        display: block!important;
+    }
+    
+}@media screen and (max-width:14089px) {
+    .banner-inner-one #last-div{
+        display: none!important;
+    }
+    
+}
 @media screen and (max-width:900px) {
+    /* .banner-inner-one #last-div{
+        display: block!important;
+    } */
+    .banner-inner-one #last-div{
+        display: block!important;
+    }
+    
     .nav-right {
         display: none;
     }
@@ -41,9 +58,9 @@
 
 
 @media screen and (max-width:800px) {
-  .banner-inner-one #last-div{
+    /* .banner-inner-one #last-div{
         display: block!important;
-    }
+    } */
 .background-image {
     width: 100%;
     height: 80vh;
